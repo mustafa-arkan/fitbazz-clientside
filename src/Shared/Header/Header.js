@@ -19,6 +19,24 @@ const Header = () => {
     const {user,logOut}=useContext(AuthContext)
 
 
+    const handleSignout=()=>{
+
+        logOut()
+        
+        .then(()=>{})
+        
+        .catch(error=>console.error(error))
+        
+        
+        
+            
+        }
+
+
+
+
+
+
 
     return (
         <div>
@@ -32,19 +50,41 @@ const Header = () => {
                     <Link to="/blog"><Button  className='fw-bolder'  variant="">Blog</Button></Link>
 
 
-                    {user ?. email && <span>Welcome,{user.email}</span>} 
-                    <Link to="/login"><Button  className='fw-bolder'  variant="">Login</Button></Link>
-                        {/* <Nav.Link  to="/home#offer">Offers</Nav.Link>
-                        <Nav.Link  to="/home#gallery">Gallery</Nav.Link>
-                        <Nav.Link  to="/home#features">Features</Nav.Link> */}
-                        {/* {user?.email && <Nav.Link  to="/myOrders">My Orders</Nav.Link>}
-                        {user?.email && <Nav.Link  to="/manageAllOrders">Manage All Orders</Nav.Link>}
-                        {user?.email && <Nav.Link  to="/addNewService">Add a new service</Nav.Link>}
+                    {/* {user ?. email && <span>Welcome,{user.email}</span>} 
+                    <Link to="/login"><Button  className='fw-bolder'  variant="">Login</Button></Link> */}
+                        
+                        {user?.email && <Link  to="/myreviews"><Button  className='fw-bolder'  variant="">My Reviews</Button></Link>}
+                       
+                        {user?.email && <Link  to="/addservice"><Button  className='fw-bolder'  variant="">Add  Service</Button></Link>}
 
-                        {!user?.email && < Link to='/login'><Button variant="outline-success">login</Button></Link>}
-                        {user?.email && <span>{user?.displayName}</span>}
-                        {user?.email && <Button onClick={logout} variant="outline-success">logout</Button>} */}
+                        {/* {user?.email && <Nav.Link  to="/manageAllOrders">Manage All Orders</Nav.Link>} */}
+
+                        {/* {!user?.email && < Link to='/login'><Button variant="outline-success">login</Button></Link>}
+                        {user?.email && <span>{user?.displayName}</span>} */}
+                        {user ?. email && <span>Welcome,{user.email}</span>} 
+                    <Link to="/login"><Button  className='fw-bolder'  variant="">Login</Button></Link>
+                        {/* {user?.email && <Button onClick={logout} variant="outline-success">logout</Button>} */}
                         {/* </Nav> */}
+
+                        {
+
+user ?.email ?
+<Button onClick={handleSignout}  className='fw-bolder'  variant="">Logout</Button>
+
+: <Link to="/login">
+
+<Button className='btn btn-small fw-bolder'>Login</Button>
+
+</Link>
+
+
+           }
+
+
+
+
+
+
                     </Navbar.Collapse>
 
                 </Container>
