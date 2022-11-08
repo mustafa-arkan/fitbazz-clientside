@@ -50,8 +50,7 @@ const Header = () => {
                     <Link to="/blog"><Button  className='fw-bolder'  variant="">Blog</Button></Link>
 
 
-                    {/* {user ?. email && <span>Welcome,{user.email}</span>} 
-                    <Link to="/login"><Button  className='fw-bolder'  variant="">Login</Button></Link> */}
+                    
                         
                         {user?.email && <Link  to="/myreviews"><Button  className='fw-bolder'  variant="">My Reviews</Button></Link>}
                        
@@ -63,9 +62,7 @@ const Header = () => {
                         {user?.email && <span>{user?.displayName}</span>} */}
                         {user ?. email && <span>Welcome,{user.email}</span>} 
                     <Link to="/login"><Button  className='fw-bolder'  variant="">Login</Button></Link>
-                        {/* {user?.email && <Button onClick={logout} variant="outline-success">logout</Button>} */}
-                        {/* </Nav> */}
-
+                       
                         {
 
 user ?.email ?

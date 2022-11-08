@@ -1,5 +1,5 @@
 .bg-img{
-    background-image: url('../../assests/image/fitness.webp');
+    background-image: url('../../assests/image/hero.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,8 +19,18 @@ p{
 
 
 
-    color: #873e23;
+    color:#fff;
 }
+h1{
+
+
+color: rgb(50, 4, 4);
+
+
+}
+
+
+
 .btn-details{
     border:none;
     border-radius: 8px;
