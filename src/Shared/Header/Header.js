@@ -42,7 +42,8 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect bg="light" expand="lg">
                 <Container >
-                <Link to="/"><Button  className='fw-bolder'  variant="">FITBAZZ</Button></Link>
+               
+                <Link to="/"><Button  className='fw-bolder text-warning fs-2'  variant=""><span className='text-dark'>F</span>IT<span className='text-dark'>B</span>AZZ</Button></Link>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse className="justify-content-end ">
 
