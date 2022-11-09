@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
+import AddNewService from "../Pages/AddNewService/AddNewService";
 import Blog from "../Pages/Blog/Blog";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
@@ -42,6 +43,14 @@ element:<Login></Login>
     element:<Register></Register>
     
     
+    },
+    {
+
+path:'/addNewService',
+element:<AddNewService></AddNewService>
+
+
+
     }
 
 

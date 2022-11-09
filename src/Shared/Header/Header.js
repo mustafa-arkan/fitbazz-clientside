@@ -55,7 +55,7 @@ const Header = () => {
                         
                         {user?.email && <Link  to="/myreviews"><Button  className='fw-bolder'  variant="">My Reviews</Button></Link>}
                        
-                        {user?.email && <Link  to="/addservice"><Button  className='fw-bolder'  variant="">Add  Service</Button></Link>}
+                        {user?.email && <Link  to="/addNewService"><Button  className='fw-bolder'  variant="">Add  Service</Button></Link>}
 
                         {/* {user?.email && <Nav.Link  to="/manageAllOrders">Manage All Orders</Nav.Link>} */}
 
