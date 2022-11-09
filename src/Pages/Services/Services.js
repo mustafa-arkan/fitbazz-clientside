@@ -12,10 +12,6 @@ const Services = () => {
 
 
 
-
-
-
-
     return (
         <div>
             <div className='text-center mb-4'>

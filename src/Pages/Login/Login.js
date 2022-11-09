@@ -106,10 +106,7 @@ const Login = () => {
       
     </Form>
 
-
-
-
-            
+  
             
         </div>
         </div>
