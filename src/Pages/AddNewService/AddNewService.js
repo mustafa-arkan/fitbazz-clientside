@@ -21,27 +21,33 @@ const AddNewService = () => {
             body: JSON.stringify(userInfo)
         })
             .then(res => res.json())
-
-
-            .then(data =>
-                
-                
-                
-                {
-                if (data.acknowled) {
-                    alert('Add service successfully');
-                    reset();
-                }
-
-
-
-            }
             
-            
-            
-            );
+.then(data=>{
+    
+    
+    console.log(data)
+
+if(data.acknowledged){
+
+alert('Add service by you successfully')
+reset()
+
+
+
+}
+
+
+})
+
+
+
+
+.catch(err=>console.error(err))
+
+
+
+
     };
-
 
 
 

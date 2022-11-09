@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import AddNewService from "../Pages/AddNewService/AddNewService";
+import AddSer from "../Pages/AddSer/AddSer";
 import Blog from "../Pages/Blog/Blog";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
@@ -46,9 +47,19 @@ element:<Login></Login>
     },
     {
 
-path:'/addNewService',
+path:'/addService',
 element:<AddNewService></AddNewService>
 
+
+
+    },
+    
+    
+    {
+
+
+path:'/addNewService',
+element:<AddSer></AddSer>
 
 
     }
