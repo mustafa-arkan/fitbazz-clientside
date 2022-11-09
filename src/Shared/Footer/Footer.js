@@ -6,7 +6,7 @@ const Footer = () => {
             <div className='bg-dark parent  mt-5 text-light text-center d-grid'>
                 <div>
 
-<h1>FITBAZZ</h1>
+<h1 className='text-light'>FITBAZZ</h1>
 
 
                 </div>
