@@ -14,7 +14,7 @@ const[order,setOrder]=useState({})
 useEffect( ()=>{
 
 
-fetch(`http://localhost:5000/addNewService?email=${user.email}`)
+fetch(`http://localhost:5000/addNewService?email=${user}`)
 .then(res=>res.json())
 
 .then(data=>setOrder(data))
@@ -22,9 +22,9 @@ fetch(`http://localhost:5000/addNewService?email=${user.email}`)
 
 
 
-},[user?.email])
-
-
+},[])
+//user?.email
+//user.email
 
     return (
         <div>
