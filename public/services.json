@@ -1,0 +1,52 @@
+[
+    {
+       
+        "service_id": "04",
+        "title": "High Interest Intensity Interval Training",
+        "img": "https://images.ctfassets.net/psi7gc0m4mjv/1b1d9f0c-67b7-45b7-bb72-31efc4da28d5/0ac6571699c4591043efd109fbf21052/issa-blog-header-hiit.jpg",
+        "price": "400$",
+        "description": "HIIT is a form of cardiovascular exercise. Usually these sessions last for 60 minutes. These short intense workouts raise metabolism and burn the highest level of calories in a short amount of time. Depending on body type, a person can burn 400-800 calories in 60 minutes. HIIT also provides improved athletic capacity and condition, improves glucose metabolism and helps to burn fat.These programs are designed to build strength and fitness through a variety of intense group intervals over a period of time."
+        
+    },
+    {
+       
+        "service_id": "05",
+        "title": "Fitness Bootcamp",
+        "img": "http://tunturi.org/Blogs/2021-08/bootcamp-full-body-workout.jpg",
+        "price": "200$",
+        "description": "I arranged a fitness  bootcamp every year.A fitness boot camp is a type of group physical training program conducted by personal trainers. These programs are designed to build strength and fitness through a variety of intense group intervals over a period of one hour. It also improves core stability and boosts metabolism.Boot camp workouts are designed to work the upper body, lower body, and core simultaneously."
+        
+    },
+    {
+       
+        "service_id": "01",
+        "title": "Weight Training",
+        "img": "http://nibrasfitness.com/wp-content/uploads/2015/09/weight-training.jpg",
+        "price": "350$",
+        "description": "Weight training is a system of conditioning involving lifting weights, especially for strength and endurance. It improves overall fitness and also helps to gain bone density. Weight training also tones and sculpts our body to look more fit and healthy.Weight training workouts are designed to work the upper body, lower body, and core simultaneously."
+    },
+    {
+        
+        "service_id": "02",
+        "title": "Personal Training",
+        "img": "https://www.ihrsa.org/uploads/Articles/Column-Width/Personal-Training_kettle-bell_column.jpg",
+        "price": "1000$",
+        "description": "I will  work with you one-on-one to help design an engaging exercise regimen, help you with form, ensure you are working all your efforts.As a personal trainer I work one on one with my clients to plan and implement exercise routines with instructions. It’s my duty to motivate clients by setting goals and providing feedback and accountability to them. As a trainer, I measure my client’s strengths and weaknesses with fitness assessments. I also introduce them to exercises that will target the client’s specific goals and motivate them towards reaching their full potential."
+    },
+    {
+        
+        "service_id": "03",
+        "title": "Nutrition: Accountability & Counseling.",
+        "img": "https://sa1s3optim.patientpop.com/assets/images/provider/photos/1798823.jpg",
+        "price": "30$",
+        "description": "I will provide nutration counseling to you.The goal of nutrition counseling is to help a person make and maintain dietary changes. For a person with a mental disorder, dietary change may be needed to promote healthier eating, to adopt a therapeutic diet, or to avoid nutrient-drug interactions. Nutrition counseling is an integral part of treatment for persons with eating disorders or chemical dependencies. Persons taking certain drugs, such as monoamine oxidase inhibitors, used to treat depression and anxiety disorders , need to follow a tyramine-controlled diet to avoid dietary interference with their medication. Many drugs used to treat mental disorders can cause weight gain or loss, so persons taking these drugs may also benefit from nutrition counseling."
+    },
+    {
+       
+        "service_id": "06",
+        "title": "Evaluation: Body Composition Testing & Measuring Success.",
+        "img": "https://cdn.muscleandstrength.com/sites/default/files/images/articles/tricep-measurement_0.jpg",
+        "price": "20$",
+        "description": " In this service i will evaluate your body composition testing & measuring.This will help to understand how to lead your life.The gold standard for body composition analysis is cadaver analysis, so no in vivo technique may be considered to meet the highest criteria of accuracy. As discussed below, only multicomponent models are now considered sufficiently accurate to act as reference or criterion methods for the molecular approach to measuring body composition (distinguishing fat and fat‐free masses), against which other methods should be evaluated. Several techniques are available, varying in complexity and ease of use, and each making assumptions that may affect its suitability for different conditions. A single technique is unlikely to be optimal in all circumstances. A further important issue is that of the difficulty of validating techniques in humans. In vivo techniques do not measure body composition directly, but rather predict it from measurements of body properties. "
+    }
+]
