@@ -3,6 +3,8 @@ import Main from "../layout/Main";
 import AddNewService from "../Pages/AddNewService/AddNewService";
 import AddSer from "../Pages/AddSer/AddSer";
 import Blog from "../Pages/Blog/Blog";
+import Details from "../Pages/Details/Details";
+
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
@@ -62,8 +64,20 @@ path:'/addNewService',
 element:<AddSer></AddSer>
 
 
+    },
+
+    {
+
+path:'/details/:id',
+element:<Details></Details>,
+loader:({params})=>fetch(`http://localhost:5000/services/${params.id}`)
+
+
     }
 
+
+
+    
 
 
 
