@@ -7,6 +7,7 @@ import Details from "../Pages/Details/Details";
 
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
+import MyReview from "../Pages/MyReview/MyReview";
 import Register from "../Pages/Register/Register";
 
 
@@ -71,6 +72,16 @@ element:<AddSer></AddSer>
 path:'/details/:id',
 element:<Details></Details>,
 loader:({params})=>fetch(`http://localhost:5000/services/${params.id}`)
+
+
+    },
+    {
+
+path:'orders',
+element:<MyReview></MyReview>
+
+
+
 
 
     }
