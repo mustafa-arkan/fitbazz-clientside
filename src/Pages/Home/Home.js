@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import AddSer from '../AddSer/AddSer';
 
 
+
 import Banner from '../Banner/Banner';
 import Login from '../Login/Login';
 import Question from '../Question/Question';
@@ -25,6 +26,7 @@ const Home = () => {
 
 
             <AddSer></AddSer>
+           
             <Question></Question>
             <Login></Login>
             

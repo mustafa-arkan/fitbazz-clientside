@@ -2,8 +2,6 @@ import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../context/UserContext';
 
 
-
-
 const AddSer = () => {
 const {user}=useContext(AuthContext)
 
@@ -32,7 +30,7 @@ fetch(`http://localhost:5000/addNewService?email=${user}`)
 
 
 
-<div    className="card card-compact w-25 bg-base-100 shadow-xl d-flex">
+ <div    className="card card-compact w-25 bg-base-100 shadow-xl d-flex">
             <figure><img src={order.img} alt="fitness" className='w-100' /></figure>
             <div className="card-body">
                 <h2 className="card-title">{order.location}</h2>
@@ -50,7 +48,7 @@ fetch(`http://localhost:5000/addNewService?email=${user}`)
                     
                 </div>
             </div>
-        </div>
+        </div> 
 
 
         </div>
