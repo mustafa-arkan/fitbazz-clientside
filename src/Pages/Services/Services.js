@@ -14,11 +14,11 @@ const Services = () => {
 
     return (
         <div>
-            <div className='text-center mb-4'>
+            <div className='text-center mb-4 row '>
                 <p className="text-2xl font-bold text-orange-600">My Services</p>
                 
             </div>
-            <div className='d-flex '>
+            <div className='d-flex  '>
 
 
                 

@@ -36,7 +36,7 @@ const ServiceCard = ({service}) => {
                 <h2 className="card-title">{title}</h2>
                 <p className='text-2xl text-orange-600 font-semibold'>Price: ${price}</p>
 
-                <p className='text-2xl text-orange-600 font-semibold'> {description}</p>
+                <p className='text-2xl text-orange-600 font-semibold'> {description.slice(0,100)}</p>
 
 
 

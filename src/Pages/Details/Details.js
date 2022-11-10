@@ -57,10 +57,23 @@ const {user}=useContext(AuthContext)
 <div className="col-md-6 col-sm-12 ">
                 <h3>Give your valuabe review.</h3>
                 <form >
+                <label for="name" class="form-label">Name</label>
                     <input defaultValue={user.name}  className="m-2 w-50" placeholder="Enter your name" /> <br />
-                    <input defaultValue={user.email}  className="m-2 w-50" placeholder="Enter your name" /> <br />
-                    <input  className="w-50 m-2" placeholder="Your Address" /> <br />
-                    <input  type="number" className="m-2 w-50" placeholder="contact no" /> <br />
+                    
+
+
+                    <div className='d-flex'>
+
+
+
+                    <label for="floatingTextarea">Review</label>
+                    <textarea className='form-control w-75' placeholder="Leave a review here" id="floatingTextarea"></textarea>
+                    </div>
+  
+
+
+                    <label for="img">Image</label>
+                    <input  type="number" className="m-2 w-50" placeholder="Image url" /> <br />
 
                     <input style={{ backgroundColor: "#0071c2", borderRadius: '6px', padding: '4px 8px', color: "white" }} type="submit" value="Review" className="m-2" />
                 </form>
