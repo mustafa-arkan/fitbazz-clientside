@@ -12,6 +12,80 @@ const Details = () => {
 const {_id,img, price, title,description}=useLoaderData()
 const {user}=useContext(AuthContext)
 
+
+const handleReview=event=>{
+
+event.preventDefault()
+const form=event.target
+
+const name=form.uname.value
+const email=user?.email||'unregistered'
+
+const message=form.review.value
+
+const img=form.img.value
+
+const order={
+
+service:_id,
+serviceName:title,
+reviewer:name,
+email,
+message,
+img
+
+}
+
+fetch('http://localhost:5000/orders',{
+
+method:'POST',
+headers:{
+
+'content-type':'application/json'
+
+
+},
+body:JSON.stringify(order)
+
+})
+
+.then(res=>res.json())
+
+
+
+.then(data=>{
+    
+    console.log(data)
+
+if(data.acknowledged){
+
+alert('Review add successfully')
+form.reset()
+
+
+}
+
+
+
+
+
+})
+
+
+
+
+.catch(err=>console.error(err))
+
+}
+
+
+
+
+
+
+
+
+
     return (
         <div className="row row-cols-md m-4">
 
@@ -56,24 +130,39 @@ const {user}=useContext(AuthContext)
 
 <div className="col-md-6 col-sm-12 ">
                 <h3>Give your valuabe review.</h3>
-                <form >
+
+
+                <form onSubmit={handleReview}>
+
+
+
+
                 <label for="name" class="form-label">Name</label>
-                    <input defaultValue={user.name}  className="m-2 w-50" placeholder="Enter your name" /> <br />
+                    <input  name="uname"   className="m-2 w-50" placeholder="Enter your name" /> <br />
                     
 
 
                     <div className='d-flex'>
 
-
-
                     <label for="floatingTextarea">Review</label>
-                    <textarea className='form-control w-75' placeholder="Leave a review here" id="floatingTextarea"></textarea>
+                    <textarea name="review" className='form-control w-75' placeholder="Leave a review here" id="floatingTextarea"></textarea>
                     </div>
   
 
 
+
+                    <label for="img">E-mail</label>
+                    <input name='email' type="email" className="m-2 w-50" defaultValue={user?.email}   placeholder="Your mail" /> <br />
+
+
+
+
                     <label for="img">Image</label>
-                    <input  type="number" className="m-2 w-50" placeholder="Image url" /> <br />
+                    <input name='img'  className="m-2 w-50" placeholder="Image url" /> <br />
+
+
+
+
 
                     <input style={{ backgroundColor: "#0071c2", borderRadius: '6px', padding: '4px 8px', color: "white" }} type="submit" value="Review" className="m-2" />
                 </form>
