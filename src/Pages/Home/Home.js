@@ -15,7 +15,7 @@ const Home = () => {
             <Services></Services>
 
             <div className='gap-2 col-6 mx-auto m-5 '>
-  <button className='btn btn-dark text-dark' type="button"><Link to='/service'  >See All</Link></button>
+  <button className='btn btn-dark text-dark' type="button"><Link to='/offers'  >See All</Link></button>
   
 </div>
 

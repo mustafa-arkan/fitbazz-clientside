@@ -57,12 +57,11 @@ const Header = () => {
                        
                         {user?.email && <Link  to="/addService"><Button  className='fw-bolder'  variant="">Add  Service</Button></Link>}
 
-                        {/* {user?.email && <Nav.Link  to="/manageAllOrders">Manage All Orders</Nav.Link>} */}
-
-                        {/* {!user?.email && < Link to='/login'><Button variant="outline-success">login</Button></Link>}
-                        {user?.email && <span>{user?.displayName}</span>} */}
+                        
                         {user ?. email && <span>Welcome,{user.email}</span>} 
                     <Link to="/login"><Button  className='fw-bolder'  variant="">Login</Button></Link>
+
+                    
                        
                         {
 
@@ -78,7 +77,7 @@ user ?.email ?
 
            }
 
-
+<Link to="/register"><Button  className='fw-bolder'  variant="">Signup</Button></Link>
 
 
 
