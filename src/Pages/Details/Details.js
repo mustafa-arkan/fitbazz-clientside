@@ -7,6 +7,7 @@ import { AuthContext } from '../../context/UserContext';
 
 
 
+
 const Details = () => {
 
 const {_id,img, price, title,description}=useLoaderData()
@@ -170,6 +171,13 @@ form.reset()
 
 
 {/* review part form end */}
+
+{/* review all start */}
+
+<h2>Review all</h2>
+
+
+
 </div>
 
 
