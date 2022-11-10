@@ -57,7 +57,7 @@ const MyReview = () => {
         <div>
             
 
-<h2 className='text-center'>Your Review:{orders.length}</h2>
+{/* <h2 className='text-center'>Your Review:{orders.length}</h2> */}
 
 
 <div className="overflow-x-auto w-100">

@@ -4,6 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 import 'react-photo-view/dist/react-photo-view.css';
 import { PhotoProvider, PhotoView } from 'react-photo-view'
 import { AuthContext } from '../../context/UserContext';
+import MyReview from '../MyReview/MyReview';
 
 
 
@@ -174,8 +175,14 @@ form.reset()
 
 {/* review all start */}
 
-<h2>Review all</h2>
+<h2>Review given by user.</h2>
 
+
+
+
+
+
+<MyReview></MyReview>
 
 
 </div>

@@ -32,27 +32,15 @@ if(data.acknowledged){
 alert('Add service by you successfully')
 reset()
 
-
-
 }
 
 
 })
 
-
-
-
 .catch(err=>console.error(err))
 
 
-
-
     };
-
-
-
-
-
 
 
     return (

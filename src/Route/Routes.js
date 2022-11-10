@@ -9,6 +9,7 @@ import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import MyReview from "../Pages/MyReview/MyReview";
 import Register from "../Pages/Register/Register";
+import Services from "../Pages/Services/Services";
 
 
 
@@ -84,8 +85,16 @@ element:<MyReview></MyReview>
 
 
 
-    }
+    },
+    {
+path:'/service',
+element:<Services></Services>
 
+
+
+
+    }
+    
 
 
     

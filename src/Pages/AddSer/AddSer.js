@@ -3,6 +3,7 @@ import { AuthContext } from '../../context/UserContext';
 
 
 
+
 const AddSer = () => {
 const {user}=useContext(AuthContext)
 
@@ -30,7 +31,7 @@ fetch(`http://localhost:5000/addNewService?email=${user}`)
         <div>
 
 
-<h2>this is add :{order.length}</h2>
+
 <div    className="card card-compact w-25 bg-base-100 shadow-xl d-flex">
             <figure><img src={order.img} alt="fitness" className='w-100' /></figure>
             <div className="card-body">
