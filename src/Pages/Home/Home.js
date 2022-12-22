@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AddSer from '../AddSer/AddSer';
+// import AddSer from '../AddSer/AddSer';
 
 
 
@@ -25,7 +25,7 @@ const Home = () => {
 
 
 
-            <AddSer></AddSer>
+            {/* <AddSer></AddSer> */}
            
             <Question></Question>
             <Login></Login>

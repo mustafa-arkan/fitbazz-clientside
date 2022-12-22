@@ -12,11 +12,14 @@ const ServiceCard = ({service}) => {
 
 
     return (
-        <div    className="card card-compact w-25 bg-base-100 shadow-xl d-flex">
+        <div    className="card card-compact w-100 bg-base-100 shadow-xl ">
 
 
+{/* <div className='card'>
 
-
+<div className='row'>
+    <div className='col-4'></div>
+ */}
 
 {/* <figure><img src={img} alt="fitness" className='w-100' /></figure> */}
 
@@ -44,7 +47,7 @@ const ServiceCard = ({service}) => {
 
 
   <Link to={`/details/${_id}`}>
-  <button className="btn btn-primary">See Details</button>
+  <button className="btn btn-primary">See Details on</button>
   
   </Link> 
 

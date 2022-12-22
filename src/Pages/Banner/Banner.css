@@ -1,5 +1,5 @@
 .bg-img{
-    background-image: url('../../assests/image/hero.jpg');
+    background-image: url('../../assests/image/hero1.webp');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,16 +12,16 @@
     align-items: center;
 }
 .bg-img h1{
-    font-size: 80px;
+    /* font-size: 80px; */
 }
 
 
-h1{
 
+.ptag{
 
-color: rgb(50, 4, 4);
-
-
+color: #FFD700
+;
+   
 }
 
 
@@ -34,6 +34,12 @@ color: rgb(50, 4, 4);
     color: white;
     font-size: 25px;
 }
+
+
+
+
+
+
 @media only screen and (max-width:600px){
         .bg-img{
             height: auto;

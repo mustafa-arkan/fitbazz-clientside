@@ -1,0 +1,20 @@
+.training{
+
+/* margin-left: 190px; */
+display: grid;
+
+grid-template-columns: repeat(3,1fr);
+gap: 14px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 12px;
+margin-right: 12px;
+
+
+}
+.left{
+
+
+
+    position: sticky;
+}
